@@ -1,0 +1,17 @@
+.env
+.gitignore
+Dockerfile
+.dockerignore
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.venv
+venv/
+env/
+.git
+.vscode
+*.txt
+*.log
+!sample_log.txt
+!requirements.txt

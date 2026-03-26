@@ -1,0 +1,12 @@
+10.0.0.1 - - [23/Mar/2026] "GET /api/v1/users" 500
+10.0.0.2 - - [23/Mar/2026] "GET /non-existent-page" 404
+10.0.0.3 - - [23/Mar/2026] "GET /another-missing-page" 404
+10.0.0.1 - - [23/Mar/2026] "POST /api/v1/update" 500
+10.0.0.4 - - [23/Mar/2026] "GET /forbidden-area" 403
+10.0.0.2 - - [23/Mar/2026] "GET /missing-resource" 404
+10.0.0.5 - - [23/Mar/2026] "GET /internal-error" 500
+10.0.0.1 - - [23/Mar/2026] "GET /api/v1/health" 200
+10.0.0.6 - - [23/Mar/2026] "GET /bad-request" 400
+10.0.0.2 - - [23/Mar/2026] "GET /not-found-again" 404
+10.0.0.3 - - [23/Mar/2026] "GET /api/v1/data" 500
+10.0.0.4 - - [23/Mar/2026] "GET /broken-link" 404
